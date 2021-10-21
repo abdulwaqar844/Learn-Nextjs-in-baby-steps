@@ -1,3 +1,9 @@
+import Head from 'next/head'
 export default function About() {
-  return <div>About us</div>
+  return (
+  <>  
+    <Head><title>About Us</title></Head>
+      <div><h2>About us</h2></div>
+  </>
+  )
 }
