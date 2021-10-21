@@ -7,11 +7,13 @@ export default function Home() {
         <Head>
       <title>Welcome To Nextjs</title>
     </Head>
-      <Profile />
-      Hello World.
+    <div style={{display:'flex',flexDirection:"column"}}>
+    <div> <Profile /></div>
+     
+   <h3> Hello World.</h3>  
       <Link href="/about">
         <a>About</a>
-      </Link>
+      </Link></div>
     </div>
   );
 }
